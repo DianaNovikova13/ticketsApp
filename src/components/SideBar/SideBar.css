@@ -1,0 +1,49 @@
+.sideBar {
+    background-color: #fff;
+    padding: 15px 15px 15px 25px;
+    border-radius: 8px;
+    font-family: "Roboto", serif;
+}
+
+.checkboxBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.currencyBox {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.currency {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.currency:hover {
+    background-color: #f1fdff;
+    color: #000;
+}
+
+.currencyMid {
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+.selected {
+    background-color: #007a7e;
+    color: white;
+}

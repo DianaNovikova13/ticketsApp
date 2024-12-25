@@ -1,0 +1,83 @@
+.ticketBlock {
+    display: flex;
+    justify-content: stretch;
+    gap: 10px;
+    background-color: #ebefff;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: "Roboto", serif;
+}
+
+.ctaBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid silver;
+    padding: 15px 25px 15px 25px;
+}
+
+.turkishLogo {
+    width: 100px;
+}
+
+.ctaBtn {
+    width: 150px;
+    height: 48px;
+    padding: 7px;
+    background-color: #f07c0c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.flightDetails {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 2;
+    padding: 15px 25px 15px 25px;
+}
+
+.departure, .arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.time {
+    font-size: 25px;
+    margin: 0;
+}
+
+.city {
+    font-size: 18px;
+    margin: 0;
+}
+
+.date {
+    font-size: 12px;
+    color: silver;
+    margin: 0;
+}
+
+.transfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(122, 119, 119);
+    flex: 1;
+}
+
+.transferArrow {
+    width: 100px;
+    height: 50px;
+}

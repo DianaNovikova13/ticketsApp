@@ -1,0 +1,42 @@
+[
+    {
+        "code": "1",
+        "from": "Москва",
+        "where": "Париж ",
+        "departureDate": "25.12.2024",
+        "departureTime": "10:00",
+        "arrivalTime": "14:50",
+        "price": "25670",
+        "transfer": 2
+    },
+    {
+        "code": "2",
+        "from": "Москва",
+        "where": "Париж ",
+        "departureDate": "25.12.2024",
+        "departureTime": "11:40",
+        "arrivalTime": "23:50",
+        "price": "19500",
+        "transfer": 3
+    },
+    {
+        "code": "3",
+        "from": "Москва",
+        "where": "Париж ",
+        "departureDate": "25.12.2024",
+        "departureTime": "13:30",
+        "arrivalTime": "20:50",
+        "price": "27800",
+        "transfer": 1
+    },
+    {
+        "code": "4",
+        "from": "Москва",
+        "where": "Париж ",
+        "departureDate": "25.12.2024",
+        "departureTime": "12:00",
+        "arrivalTime": "15:20",
+        "price": "29670",
+        "transfer": 0
+    }
+]

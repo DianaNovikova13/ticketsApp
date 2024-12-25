@@ -1,0 +1,42 @@
+.checkbox-wrapper {
+    padding: 8px;
+    font-family: "Roboto", serif;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-wrapper input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.15em solid #007a7e;
+    outline: none;
+    cursor: pointer;
+}
+
+input:checked {
+    background-color: #007a7e;
+    position: relative;
+}
+
+input.checked::before {
+    content: "";
+    background-image: url('../../assets/check.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    font-size: 1.5em;
+    color: #000;
+    position: absolute;
+  }
+
+.checkbox-wrapper input[type="checkbox"]:focus {
+    box-shadow: 0 0 20px #007a7e;
+  }

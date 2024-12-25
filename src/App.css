@@ -1,0 +1,25 @@
+body {
+  background: #ebefff;
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  width: 60%;
+}
+
+.aircraft {
+  align-self: flex-start;
+  margin-left: 490px;
+}
